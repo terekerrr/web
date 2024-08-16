@@ -5,15 +5,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Notices',
-      collapsible: false,
-      collapsed: false,
       items: ['notices/preparing-for-fault-proofs-on-base-sepolia'],
     },
     {
       type: 'category',
       label: 'Building on Base',
-      collapsible: false,
-      collapsed: false,
       items: [
         'building-with-base/network-information',
         'building-with-base/base-contracts',
@@ -29,8 +25,6 @@ module.exports = {
     {
       type: 'category',
       label: 'Tools',
-      collapsible: false,
-      collapsed: false,
       items: [
         'tools/node-providers',
         'tools/block-explorers',
@@ -45,22 +39,16 @@ module.exports = {
         {
           type: 'category',
           label: 'Onchain Registry',
-          collapsible: true,
-          collapsed: true,
           items: ['tools/registry-api', 'tools/registry-faq'],
         },
         {
           type: 'category',
           label: 'Toolchains',
-          collapsible: true,
-          collapsed: true,
           items: ['tools/foundry', 'tools/hardhat', 'tools/thirdweb-cli'],
         },
         {
           type: 'category',
           label: 'Clients',
-          collapsible: true,
-          collapsed: true,
           items: ['tools/ethers', 'tools/thirdweb-sdk', 'tools/viem', 'tools/web3'],
         },
       ],
@@ -68,22 +56,12 @@ module.exports = {
     {
       type: 'category',
       label: 'Tokens',
-      collapsible: false,
-      collapsed: false,
       items: ['tokens/token-list', 'tokens/wallet'],
     },
     ['contracts'],
     ['security'],
-    {
-      type: 'link',
-      label: 'Status',
-      href: 'https://status.base.org',
-    },
-    {
-      type: 'link',
-      label: 'Brand Kit',
-      href: 'https://github.com/base-org/brand-kit',
-    },
+    { type: 'link', label: 'Status', href: 'https://status.base.org' },
+    { type: 'link', label: 'Brand Kit', href: 'https://github.com/base-org/brand-kit' },
     ['terms-of-service'],
     ['privacy-policy'],
     ['cookie-policy'],
